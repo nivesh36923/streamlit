@@ -14,7 +14,8 @@ df = pd.DataFrame({
 })
 
 st.write("DataFrame Example:")
-st.dataframe(df)
+with st.expander('DataFrame'):
+    df
 
 
 name = st.text_input("Enter your name:")
