@@ -4,6 +4,10 @@ st.title('**Streamlit Tutorial**')
 
 st.write('Give the answers of all the questions')
 
+age = st.slider("Select your age", 1, 100, 25)
+st.write(f"You selected {age} years old.")
+
+
 name = st.text_input("Enter your name:")
 age = st.number_input("Enter your age:", min_value=1, max_value=100)
 gender = st.selectbox("Select your gender:", ["Male", "Female", "Other"])
