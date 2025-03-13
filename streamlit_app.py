@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 
 st.title('**Streamlit Tutorial**')
 
@@ -6,6 +7,14 @@ st.write('Give the answers of all the questions')
 
 age = st.slider("Select your age", 1, 100, 25)
 st.write(f"You selected {age} years old.")
+
+df = pd.DataFrame({
+    "A": [1, 2, 3, 4],
+    "B": [5, 6, 7, 8]
+})
+
+st.write("DataFrame Example:")
+st.dataframe(df)
 
 
 name = st.text_input("Enter your name:")
