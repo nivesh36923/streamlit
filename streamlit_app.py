@@ -11,7 +11,7 @@ age = st.number_input("Enter your age:", min_value=1, max_value=100)
 gender = st.selectbox("Select your gender:", ["Male", "Female", "Other"])
 
 goal = st.selectbox('Select your goal: ', ['Muscle gain','Keep Fit','Weight Loss'])
-
+body = st.multiselect('Select the focus muscle: ',['Chest','Back','Shoulder','Leg','Arm','Abs','Full body'])
 
 exercise_routine = st.selectbox('Select your workout habit:', ['beginner', 'intemediate', 'advanced', 'professional'])
 
@@ -25,6 +25,8 @@ if agree == True:
   st.sidebar.write(f"Age: {age}")
   st.sidebar.write(f"Gender: {gender}")
   st.sidebar.write(f"Goal: {goal}")
+  st.sidebar.write(f"Muscles : {body}")
+
   
 
 # # age = st.slider("Select your age", 1, 100, 25)
