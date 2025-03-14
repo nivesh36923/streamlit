@@ -34,7 +34,17 @@ if agree == True:
     with st.sidebar.expander('Muscle'):
       af
 
-  
+
+  continue_button = st.checkbox('Next')
+  if continue_button == True:
+    for i in body:
+      if i == 'Chest':
+        
+        # st.image("action-athlete-barbell-841130.jpg", caption="This is a sample image", use_container_width=True)
+        
+        
+    
+
 
 # # age = st.slider("Select your age", 1, 100, 25)
 # st.write(f"You selected {age} years old.")
