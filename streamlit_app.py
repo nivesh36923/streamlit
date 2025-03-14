@@ -17,11 +17,15 @@ exercise_routine = st.selectbox('Select your workout habit:', ['beginner', 'inte
 
 agree = st.checkbox("I agree to the terms")
 
-st.sidebar.title("Personal Information")
-st.sidebar.write(f"Name: {name}")
-st.sidebar.write(f"Age: {age}")
-st.sidebar.write(f"Gender: {gender}")
-st.sidebar.write(f"Goal: {goal}")
+
+if agree == True:
+  
+  st.sidebar.title("Personal Information")
+  st.sidebar.write(f"Name: {name}")
+  st.sidebar.write(f"Age: {age}")
+  st.sidebar.write(f"Gender: {gender}")
+  st.sidebar.write(f"Goal: {goal}")
+  
 
 # # age = st.slider("Select your age", 1, 100, 25)
 # st.write(f"You selected {age} years old.")
