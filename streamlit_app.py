@@ -13,9 +13,9 @@ gender = st.selectbox("Select your gender:", ["Male", "Female", "Other"])
 what = st.selectbox('Select your goal: ', ['Muscle gain','Keep Fit','Weight Loss'])
 
 
-# exercise_routine = st.selectbox('Select your workout habit:', ['beginner', 'intemediate', 'advanced', 'professional'])
+exercise_routine = st.selectbox('Select your workout habit:', ['beginner', 'intemediate', 'advanced', 'professional'])
 
-# agree = st.checkbox("I agree to the terms")
+agree = st.checkbox("I agree to the terms")
 
 # st.sidebar.title("Personal Information")
 # # age = st.slider("Select your age", 1, 100, 25)
