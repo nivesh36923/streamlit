@@ -33,18 +33,16 @@ if agree == True:
     af = pd.DataFrame({'Muscles': body})
     with st.sidebar.expander('Muscle'):
       af
-
-
-continue_button = st.checkbox('Next')
-if continue_button == True:
-  for i in body:
-    if i == 'Chest':
-      exc = pd.DataFrame({'Exercise':['Regular push-ups','Diamond push-ups','Barbell Bench Press','Incline Barbell Bench Press'],
-                          'Reps' : [20,15,8,10],
-                          'Sets' : [4,3,4,5]
-                         })
-      with st.expander('Chest'):
-        exc
+  continue_button = st.checkbox('Next')
+  if continue_button == True:
+    for i in body:
+      if i == 'Chest':
+        exc = pd.DataFrame({'Exercise':['Regular push-ups','Diamond push-ups','Barbell Bench Press','Incline Barbell Bench Press'],
+                            'Reps' : [20,15,8,10],
+                            'Sets' : [4,3,4,5]
+                           })
+        with st.expander('Chest'):
+          exc
            
         
         
