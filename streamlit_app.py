@@ -28,7 +28,7 @@ if agree == True:
   if len(body) == 6:
     st.sidebar.write(f"Muscles : Full body")
   else:
-    af = pd.DataFrame('Muscles':body)
+    af = pd.DataFrame({'Muscles': body})
     af
 
   
