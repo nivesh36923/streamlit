@@ -80,7 +80,7 @@ if agree == True:
                              })
           with st.expander('Abs'):
             exc
-         if i == 'Leg':
+        if i == 'Leg':
           exc = pd.DataFrame({'Exercise':['Leg Press','Barbell Squats ','Bulgarian Split Squats','Seated Hamstring Curls' ],
                               'Reps' : [10,10,12,4],
                               'Sets' : [3,3,4,5]
