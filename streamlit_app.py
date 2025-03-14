@@ -39,8 +39,13 @@ if agree == True:
   if continue_button == True:
     for i in body:
       if i == 'Chest':
-        
-        # st.image("action-athlete-barbell-841130.jpg", caption="This is a sample image", use_container_width=True)
+        exc = pd.DataFrame({'Exercise':['Regular push-ups','Diamond push-ups','Barbell Bench Press','Incline Barbell Bench Press'],
+                            'Reps' : [20,15,8,10],
+                            'Sets' : [4,3,4,5]
+                           })
+        with st.expander('Chest'):
+          exc
+         
         
         
     
