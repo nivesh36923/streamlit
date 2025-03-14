@@ -25,7 +25,11 @@ if agree == True:
   st.sidebar.write(f"Age: {age}")
   st.sidebar.write(f"Gender: {gender}")
   st.sidebar.write(f"Goal: {goal}")
-  st.sidebar.write(f"Muscles : {body}")
+  if len(body) == 6:
+    st.sidebar.write(f"Muscles : Full body")
+  else:
+    af = pd.DataFrame('Muscles':body)
+    af
 
   
 
