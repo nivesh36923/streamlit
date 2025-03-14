@@ -29,7 +29,8 @@ if agree == True:
     st.sidebar.write(f"Muscles : Full body")
   else:
     af = pd.DataFrame({'Muscles': body})
-    st.sidebar.write(af)
+    with st.sidebar.expander('Muscle'):
+      af
 
   
 
