@@ -93,33 +93,33 @@ if agree == True:
                               'Reps' : [20,15,8,10],
                               'Sets' : [4,3,4,5]
                              })
-          with st.expander('Chest'):
-            exc
+      with st.expander('Chest'):
+        exc
       exc = pd.DataFrame({'Exercise':['Pull-ups (Weighted or Bodyweight','Chin-ups','Dumbbell Rows','Deadlifts'],
                               'Reps' : [12,10,12,4],
                               'Sets' : [3,3,4,5]
                              })
-          with st.expander('Back'):
-            exc
+      with st.expander('Back'):
+        exc
       exc = pd.DataFrame({'Exercise':['Barbell Overhead Press','Dumbbell Shoulder Press ','Lateral Raises','Upright Rows'],
                               'Reps' : [8,10,12,10],
                               'Sets' : [4,4,4,3]
                              })
-          with st.expander('Shoulder'):
-            exc
+      with st.expander('Shoulder'):
+        exc
       exc = pd.DataFrame({'Exercise':['Preacher Curls','Dumbbell Bicep Curls','Overhead Triceps Extensions','Hammer Curls'],
                               'Reps' : [12,11,8,10],
                               'Sets' : [3,3,3,3]
                              })
-          with st.expander('Arm'):
-            exc
+      with st.expander('Arm'):
+        exc
       exc = pd.DataFrame({'Exercise':['Plank','Reverse Crunches ','Decline Sit-ups','Russian Twists'],
                               'Reps' : ['45 seconds',10,12,4],
                               'Sets' : [3,3,4,5]
                              })
-          with st.expander('Abs'):
-            exc
-      
+      with st.expander('Abs'):
+        exc
+  
       
       
       
