@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 st.title('**AI-BASED TRAINER**')
-st.image("action-athlete-barbell-841130.jpg", caption="This is a sample image", use_column_width=True)
+st.image("action-athlete-barbell-841130.jpg", caption="This is a sample image", use_container_width=True)
 st.write('Give the answers of all the questions')
 
 age = st.slider("Select your age", 1, 100, 25)
